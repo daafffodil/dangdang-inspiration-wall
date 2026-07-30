@@ -20,6 +20,8 @@ test("builds a complete GitHub Pages site", async () => {
     css,
     /grid-template-columns:\s*repeat\(5,\s*minmax\(0,\s*1fr\)\)/,
   );
+  assert.match(css, /--background:\s*#ffffff/);
+  assert.match(css, /--source:\s*#ffffff/);
   assert.match(css, /aspect-ratio:\s*3\s*\/\s*4/);
   assert.match(app, /button\.classList\.toggle\("is-flipped"\)/);
   assert.match(app, /查看灵感来源/);

@@ -70,6 +70,8 @@ test("keeps the wall content minimal and complete", async () => {
     css,
     /grid-template-columns:\s*repeat\(5,\s*minmax\(0,\s*1fr\)\)/,
   );
+  assert.match(css, /--background:\s*#ffffff/);
+  assert.match(css, /--source:\s*#ffffff/);
   assert.match(css, /aspect-ratio:\s*3\s*\/\s*4/);
   assert.match(css, /border-radius:\s*clamp\(/);
   assert.doesNotMatch(css, /rotateY|perspective|preserve-3d/);
