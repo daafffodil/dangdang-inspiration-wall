@@ -4,6 +4,8 @@
 
 卡片正面展示品牌效果图，点击卡片查看背面的灵感来源。页面采用 3:4 卡片和响应式五列布局。
 
+公开网站：<https://daafffodil.github.io/dangdang-inspiration-wall/>
+
 ## 本地预览
 
 ```bash
