@@ -32,6 +32,7 @@ test("renders the completed inspiration wall", async () => {
   assert.match(html, /<title>旧衣回收灵感 · 铛铛一下<\/title>/);
   assert.match(html, /旧衣回收灵感/);
   assert.match(html, /\/brand-mark\.png/);
+  assert.match(html, /\/cards\/effect-13\.png/);
   assert.match(html, /\/cards\/effect-12\.png/);
   assert.match(html, /\/cards\/effect-11\.png/);
   assert.match(html, /\/cards\/effect-01\.png/);
@@ -52,11 +53,11 @@ test("keeps the wall content minimal and complete", async () => {
     readFile(new URL("../app/InspirationWall.tsx", import.meta.url), "utf8"),
   ]);
 
-  assert.equal(cards.length, 12);
-  assert.equal(cards[0].id, "I-20260730-12");
-  assert.equal(cards[0].effect, "/cards/effect-12.png");
+  assert.equal(cards.length, 13);
+  assert.equal(cards[0].id, "I-20260730-13");
+  assert.equal(cards[0].effect, "/cards/effect-13.png");
   assert.equal(cards[0].source.kind, "image");
-  assert.equal(cards[0].source.src, "/cards/source-12.png");
+  assert.equal(cards[0].source.src, "/cards/source-13.webp");
   for (const card of cards) {
     assert.match(card.id, /^I-\d{8}-\d{2}$/);
     assert.match(card.effect, /^\/cards\/effect-\d{2}\.png$/);

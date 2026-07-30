@@ -12,8 +12,8 @@ test("builds a complete GitHub Pages site", async () => {
     readFile(new URL("../docs/app.js", import.meta.url), "utf8"),
   ]);
 
-  assert.equal(cards.length, 12);
-  assert.equal(cards[0].id, "I-20260730-12");
+  assert.equal(cards.length, 13);
+  assert.equal(cards[0].id, "I-20260730-13");
   assert.match(html, /旧衣回收灵感 · 铛铛一下/);
   assert.match(html, /\.\/brand-mark\.png/);
   assert.match(
