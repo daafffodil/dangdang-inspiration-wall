@@ -55,5 +55,41 @@
       "src": "/cards/source-06.png",
       "alt": "被翻到衣服外面的彩色口袋静物"
     }
+  },
+  {
+    "id": "I-20260730-07",
+    "effect": "/cards/effect-07.png",
+    "effectAlt": "别让好看压箱底",
+    "source": {
+      "kind": "text",
+      "text": "透明收纳让珍惜变得看得见，也让搁置变得更明显。"
+    }
+  },
+  {
+    "id": "I-20260730-08",
+    "effect": "/cards/effect-08.png",
+    "effectAlt": "穿腻了不是穿坏了",
+    "source": {
+      "kind": "text",
+      "text": "双面翻板换一个方向，同一件东西就进入下一段生活。"
+    }
+  },
+  {
+    "id": "I-20260730-09",
+    "effect": "/cards/effect-09.png",
+    "effectAlt": "衣柜不是博物馆",
+    "source": {
+      "kind": "text",
+      "text": "展柜适合保存历史，衣柜更适合让衣服继续流动。"
+    }
+  },
+  {
+    "id": "I-20260730-10",
+    "effect": "/cards/effect-10.png",
+    "effectAlt": "衣柜也要放放风",
+    "source": {
+      "kind": "text",
+      "text": "透明充气结构把衣柜里停滞的空气，变成可见的流动。"
+    }
   }
 ]

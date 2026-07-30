@@ -24,12 +24,28 @@ type InspirationCard = {
 const cards = cardsData as InspirationCard[];
 
 export default function InspirationWall() {
-  const [flippedCard, setFlippedCard] = useState<string | null>(null);
+  const [flippedCards, setFlippedCards] = useState<Set<string>>(
+    () => new Set(),
+  );
+
+  const toggleCard = (cardId: string) => {
+    setFlippedCards((current) => {
+      const next = new Set(current);
+
+      if (next.has(cardId)) {
+        next.delete(cardId);
+      } else {
+        next.add(cardId);
+      }
+
+      return next;
+    });
+  };
 
   return (
     <main className="wall" aria-label="铛铛一下灵感墙">
       {cards.map((card) => {
-        const isFlipped = flippedCard === card.id;
+        const isFlipped = flippedCards.has(card.id);
 
         return (
           <button
@@ -43,7 +59,7 @@ export default function InspirationWall() {
                 ? `返回效果图：${card.effectAlt}`
                 : `查看灵感来源：${card.effectAlt}`
             }
-            onClick={() => setFlippedCard(isFlipped ? null : card.id)}
+            onClick={() => toggleCard(card.id)}
           >
             <span className="card-inner">
               <span className="card-face card-front">
