@@ -1,5 +1,15 @@
 [
   {
+    "id": "I-20260730-14",
+    "effect": "/cards/effect-14.png",
+    "effectAlt": "衣柜内存不足",
+    "source": {
+      "kind": "image",
+      "src": "/cards/source-14.png",
+      "alt": "低饱和手绘女孩在电脑前工作的帖子截图"
+    }
+  },
+  {
     "id": "I-20260730-13",
     "effect": "/cards/effect-13.png",
     "effectAlt": "衣柜里全是意见",
