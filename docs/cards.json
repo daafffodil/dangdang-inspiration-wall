@@ -1,0 +1,105 @@
+[
+  {
+    "id": "I-20260730-11",
+    "effect": "/cards/effect-11.png",
+    "effectAlt": "请让旧衣再穿1000次",
+    "source": {
+      "kind": "image",
+      "src": "/cards/source-11.png",
+      "alt": "薯条盒重复阵列与中央大字的参考截图"
+    }
+  },
+  {
+    "id": "I-20260730-01",
+    "effect": "/cards/effect-01.png",
+    "effectAlt": "留白从衣柜开始",
+    "source": {
+      "kind": "text",
+      "text": "一本画册里，留白不是空。它决定你先看到什么。"
+    }
+  },
+  {
+    "id": "I-20260730-02",
+    "effect": "/cards/effect-02.png",
+    "effectAlt": "好衣服别坐冷板凳",
+    "source": {
+      "kind": "image",
+      "src": "/cards/source-02.png",
+      "alt": "彩色模块化坐具组成的几何秩序"
+    }
+  },
+  {
+    "id": "I-20260730-03",
+    "effect": "/cards/effect-03.png",
+    "effectAlt": "喜欢过就不算浪费",
+    "source": {
+      "kind": "text",
+      "text": "一段关系已经完成，不需要继续占据空间来证明它存在。"
+    }
+  },
+  {
+    "id": "I-20260730-04",
+    "effect": "/cards/effect-04.png",
+    "effectAlt": "旧衣先去见见世面",
+    "source": {
+      "kind": "image",
+      "src": "/cards/source-04.png",
+      "alt": "机场行李转盘上的亮色行李箱"
+    }
+  },
+  {
+    "id": "I-20260730-05",
+    "effect": "/cards/effect-05.png",
+    "effectAlt": "衣架也想下个班",
+    "source": {
+      "kind": "text",
+      "text": "下班不是消失，是让下一次出现更有力。"
+    }
+  },
+  {
+    "id": "I-20260730-06",
+    "effect": "/cards/effect-06.png",
+    "effectAlt": "口袋别再藏明天",
+    "source": {
+      "kind": "image",
+      "src": "/cards/source-06.png",
+      "alt": "被翻到衣服外面的彩色口袋静物"
+    }
+  },
+  {
+    "id": "I-20260730-07",
+    "effect": "/cards/effect-07.png",
+    "effectAlt": "别让好看压箱底",
+    "source": {
+      "kind": "text",
+      "text": "透明收纳让珍惜变得看得见，也让搁置变得更明显。"
+    }
+  },
+  {
+    "id": "I-20260730-08",
+    "effect": "/cards/effect-08.png",
+    "effectAlt": "穿腻了不是穿坏了",
+    "source": {
+      "kind": "text",
+      "text": "双面翻板换一个方向，同一件东西就进入下一段生活。"
+    }
+  },
+  {
+    "id": "I-20260730-09",
+    "effect": "/cards/effect-09.png",
+    "effectAlt": "衣柜不是博物馆",
+    "source": {
+      "kind": "text",
+      "text": "展柜适合保存历史，衣柜更适合让衣服继续流动。"
+    }
+  },
+  {
+    "id": "I-20260730-10",
+    "effect": "/cards/effect-10.png",
+    "effectAlt": "衣柜也要放放风",
+    "source": {
+      "kind": "text",
+      "text": "透明充气结构把衣柜里停滞的空气，变成可见的流动。"
+    }
+  }
+]
