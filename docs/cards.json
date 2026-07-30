@@ -1,5 +1,15 @@
 [
   {
+    "id": "I-20260730-12",
+    "effect": "/cards/effect-12.png",
+    "effectAlt": "衣服想看看外面",
+    "source": {
+      "kind": "image",
+      "src": "/cards/source-12.png",
+      "alt": "SocialBeta 发布的购物袋内部视角创意案例截图"
+    }
+  },
+  {
     "id": "I-20260730-11",
     "effect": "/cards/effect-11.png",
     "effectAlt": "请让旧衣再穿1000次",
