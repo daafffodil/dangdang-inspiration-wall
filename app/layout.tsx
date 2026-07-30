@@ -14,10 +14,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const shareImage = `${protocol}://${host}/og.png`;
 
   return {
-    title: "铛铛一下 · 灵感墙",
+    title: "旧衣回收灵感 · 铛铛一下",
     description: "从灵感来源到铛铛一下品牌效果的视觉档案。",
     openGraph: {
-      title: "铛铛一下 · 灵感墙",
+      title: "旧衣回收灵感 · 铛铛一下",
       description: "从灵感来源到铛铛一下品牌效果的视觉档案。",
       images: [
         {
@@ -30,7 +30,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: "铛铛一下 · 灵感墙",
+      title: "旧衣回收灵感 · 铛铛一下",
       description: "从灵感来源到铛铛一下品牌效果的视觉档案。",
       images: [shareImage],
     },

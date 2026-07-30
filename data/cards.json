@@ -1,5 +1,15 @@
 [
   {
+    "id": "I-20260730-11",
+    "effect": "/cards/effect-11.png",
+    "effectAlt": "请让旧衣再穿1000次",
+    "source": {
+      "kind": "image",
+      "src": "/cards/source-11.png",
+      "alt": "薯条盒重复阵列与中央大字的参考截图"
+    }
+  },
+  {
     "id": "I-20260730-01",
     "effect": "/cards/effect-01.png",
     "effectAlt": "留白从衣柜开始",
