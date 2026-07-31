@@ -49,6 +49,12 @@ export default function InspirationWall() {
           <img src="/brand-mark.png" alt="铛铛一下" />
           <h1>旧衣回收灵感</h1>
         </div>
+        <a
+          className="directory-link"
+          href="https://daafffodil.github.io/dangdang-textile-daily/"
+        >
+          返回项目目录
+        </a>
       </header>
 
       <main className="wall" aria-label="旧衣回收灵感">
@@ -93,3 +99,4 @@ export default function InspirationWall() {
     </>
   );
 }
+
